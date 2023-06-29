@@ -556,6 +556,14 @@ video {
   }
 }
 
+.card {
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -584,19 +592,18 @@ video {
   place-items: center;
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .bg-purple-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 7 100 / var(--tw-bg-opacity));
 }
 
-.text-red-700 {
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
