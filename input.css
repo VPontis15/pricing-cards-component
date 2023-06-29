@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h2 {
+    @apply font-serif text-4xl mb-2 font-semibold;
+  }
+}
+
 @layer components {
   .card {
     @apply rounded-2xl mx-auto  text-center border-8 outline outline-8 outline-slate-800 border-slate-800 w-[250px] max-w-[250px];
+  }
+
+  .cta-link {
+    @apply border border-purple-700 hover:bg-purple-700 px-10 py-3 rounded-md;
   }
 
   .row {
