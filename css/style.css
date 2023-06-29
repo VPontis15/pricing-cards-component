@@ -574,6 +574,11 @@ h2 {
   --tw-border-opacity: 1;
   border-color: rgb(30 41 59 / var(--tw-border-opacity));
   text-align: center;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-color: #1e293b;
+  --tw-shadow: var(--tw-shadow-colored);
   outline-style: solid;
   outline-width: 8px;
   outline-color: #1e293b;
@@ -642,20 +647,12 @@ h2 {
   place-items: center;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-12 {
-  gap: 3rem;
-}
-
 .gap-16 {
   gap: 4rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .border-t {

@@ -10,7 +10,7 @@
 
 @layer components {
   .card {
-    @apply rounded-2xl mx-auto  text-center border-8 outline outline-8 outline-slate-800 border-slate-800 w-[250px] max-w-[250px];
+    @apply shadow-2xl shadow-slate-800 rounded-2xl mx-auto  text-center border-8 outline outline-8 outline-slate-800 border-slate-800 w-[250px] max-w-[250px];
   }
 
   .cta-link {
